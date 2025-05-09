@@ -5,7 +5,7 @@ The image will clone both the alf-python github and alf repos.
 ### Step 1: define your data dir
 Docker containers are designed to work and operate in isolation, but when using ALF you need an easy way to pass data in and out. Therefore, specify a directory to mount into the container so you can access that data from within the container.
 
-export MY_MOUNTED_DATA_DIR=<<your data dir>>
+$ export MY_MOUNTED_DATA_DIR=your_data_dir
 
 ### Step 2: Build the docker image.
 cd to the directory with the Dockerfile and the docker-compose.yml file. Do:
@@ -23,7 +23,7 @@ Inside the container you should have a directory /opt/alf containing all the alf
 The VCJ models that run with alf are not in the github repo. If you don't already have them, email charlie conroy nicely to ask for them.
 ALF cannot run without the models.
 If you have the files in your MY_MOUNTED_DATA_DIR, you can:
-scp /mnt/<path to the models in your mounted dir>/* /opt/alf/infiles/
+scp /mnt/path_to_the_models_in_your_mounted_dir>/* /opt/alf/infiles/
 
 ### Step 5 install Gabe Brammer's python-alf wrapper:
 In the /opt/alf-python directory run:
