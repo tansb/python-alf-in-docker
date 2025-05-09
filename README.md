@@ -24,7 +24,7 @@ Inside the container you should have a directory /opt/alf containing all the alf
 ### !!!! Step 4: Copy the models into the /opt/alf/infiles/
 The VCJ models that run with alf are not in the github repo. If you don't already have them, email charlie conroy nicely to ask for them.
 ALF cannot run without the models.
-If you have the files in your MY_MOUNTED_DATA_DIR, you can:
+If you have the files in your \<your_data_dir>, you can:
 
 ```scp /mnt/path_to_the_models_in_your_mounted_dir>/* /opt/alf/infiles/```
 
