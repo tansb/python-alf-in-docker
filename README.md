@@ -2,7 +2,7 @@ This dockerfile is to run Gabe Brammer's alf-python wrapper to Charlie Conroy's 
 
 The image will clone both the alf-python github and alf repos.
 
-### Step 1: define your data dir
+### Step 1: define your data directory
 Docker containers are designed to work and operate in isolation, but when using ALF you need an easy way to pass data in and out. Therefore, specify a directory to mount into the container so you can access that data from within the container.
 
 ```export MY_MOUNTED_DATA_DIR=<your_data_dir>```
