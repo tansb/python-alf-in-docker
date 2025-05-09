@@ -5,7 +5,7 @@ The image will clone both the alf-python github and alf repos.
 ### Step 1: define your data dir
 Docker containers are designed to work and operate in isolation, but when using ALF you need an easy way to pass data in and out. Therefore, specify a directory to mount into the container so you can access that data from within the container.
 
-```export MY_MOUNTED_DATA_DIR=your_data_dir```
+```export MY_MOUNTED_DATA_DIR=<your_data_dir>```
 
 ### Step 2: Build the docker image.
 cd to the directory with the Dockerfile and the docker-compose.yml file. Do:
