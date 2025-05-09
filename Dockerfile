@@ -14,7 +14,7 @@ RUN apt update && apt install -y \
     && apt clean
 
 # get ipython because I like it
-RUN pip instal ipython
+RUN pip install ipython
 
 # Silence OpenMPI root warnings (acceptable in Docker)
 ENV OMPI_ALLOW_RUN_AS_ROOT=1
