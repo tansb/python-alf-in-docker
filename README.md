@@ -39,7 +39,7 @@ from alf.alf import Alf
 sps = Alf()
 
 This should print something like:
-Alf: CALL SETUP()
+```Alf: CALL SETUP()
  Fit_type:           1
  fit_two_ages:           0
  mwimf:           1
@@ -48,5 +48,5 @@ Alf: CALL SETUP()
  fit_hermite:           0
  velbroad_simple:           0
  Wavelength limits l1, l2, nlint:   3590.1199999999999        11079.600000000000                1
-
+```
 If so, then you are ready to use Alf and the python-wrapper :)
