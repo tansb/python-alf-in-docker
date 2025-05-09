@@ -53,7 +53,7 @@ If so, then you are ready to use Alf and the python-wrapper :)
 
 
 ### Step 7 leaving the container
-Once you've done your business and want to move on with your day, you can detatch from the container by doing control+d. This detaches from the container but leaves it running so the next time you need it you can just run ```docker exec -it alf_container bash``` again.
+When you want to move on with your day, you can detatch from the container by doing control+d. This detaches from the container but leaves it running so the next time you need it you can just run ```docker exec -it alf_container bash``` again.
 
 Once you want to move on with your life completely and no longer need the container, you can delete the container fully using
 ```docker rm alf_container```
