@@ -26,7 +26,7 @@ The VCJ models that run with alf are not in the github repo. If you don't alread
 ALF cannot run without the models.
 If you have the files in your \<your_data_dir>, you can:
 
-```scp /mnt/path_to_the_models_in_your_mounted_dir>/* /opt/alf/infiles/```
+```scp /mnt/<path_to_the_models_in_your_mounted_dir>/* /opt/alf/infiles/```
 
 ### Step 5 install Gabe Brammer's python-alf wrapper:
 In the /opt/alf-python directory run:
