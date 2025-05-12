@@ -28,6 +28,6 @@ jobs:
     # Wait 10 seconds, checks that the container is up, and then stops it.
     - name: Wait briefly then shut down
       run: |
-      sleep 10
-      docker compose ps
-      docker compose down
+        sleep 10
+        docker compose ps
+        docker compose down
