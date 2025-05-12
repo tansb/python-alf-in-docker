@@ -10,6 +10,9 @@ jobs:
   build-and-run:
     runs-on: ubuntu-latest
 
+    env:
+      MY_MOUNTED_DATA_DIR: /tmp
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
