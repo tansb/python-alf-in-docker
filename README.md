@@ -40,7 +40,7 @@ Run ```ipython``` and see if you can:
 
 ```sps = Alf()```
 
-This should print something like:
+After a few seconds it should print something like:
 ```Alf: CALL SETUP()
  Fit_type:           1
  fit_two_ages:           0
