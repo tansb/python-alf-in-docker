@@ -1,9 +1,5 @@
 # docker compose up -d
 # docker exec -it alf_container bash
-
-# THEN!!! The only thing needed to do afterwards is to put the vcj models into
-# the /opt/alf/infiles directory
-
 services:
   alf:
     build:
