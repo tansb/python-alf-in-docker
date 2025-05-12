@@ -1,5 +1,6 @@
-# docker compose up -d
-# docker exec -it alf_container bash
+# docker commands:
+#   docker compose up -d
+#   docker exec -it alf_container bash
 services:
   alf:
     build:
