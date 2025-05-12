@@ -9,7 +9,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: tansb-alf
+    image: tansb/alf
     container_name: alf_container
     volumes:
         - ${MY_MOUNTED_DATA_DIR}:/mnt
