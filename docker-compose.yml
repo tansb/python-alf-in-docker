@@ -1,5 +1,3 @@
-version: '3.8'
-
 # docker compose up -d
 # docker exec -it alf_container bash
 
@@ -11,7 +9,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: tans/alf
+    image: tansb-alf
     container_name: alf_container
     volumes:
         - ${MY_MOUNTED_DATA_DIR}:/mnt
