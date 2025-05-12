@@ -35,7 +35,9 @@ In the /opt/alf-python directory run:
 
 ### Step 6 check that it's all running correctly:
 Run ipython and see if you can:
+
 ```from alf.alf import Alf```
+
 ```sps = Alf()```
 
 This should print something like:
